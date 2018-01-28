@@ -1,0 +1,2567 @@
+@font-face {
+    font-family: 'roboto_slabregular'; Arial;
+    src: url('http://localhost:8080/RobotoSlab-Regular-webfont.eot');
+    src: url('http://localhost:8080/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('RobotoSlab-Regular-webfont.woff2') format('woff2'),
+         url('RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{	
+	width: 100%;
+	font-family: 'roboto_slabregular', arial;
+	font-size: 1em;
+	color:#2e2e1f; 
+	background: url("../img/layout/background.png") no-repeat fixed center;
+	background-size: 75%;
+}
+
+a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#all
+{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#conteneur
+{
+	width:100%;
+	height: 30%;
+	padding-bottom:20%;
+}
+
+.logo
+{
+	display: block;
+	float:left;
+	width:50%;
+	position:relative;
+}
+
+.infos {
+	position:relative;
+	text-align:right;
+	float:right;
+	width:50%;
+}
+
+.infos ul {
+	list-style-type: none;}
+
+.infos li {
+	margin-top:10px;
+	color:#222;
+}
+
+.infos a {color:#222;text-decoration:none;}
+.infos a:hover {text-decoration:underline;}
+
+
+#menuhp {
+	background-color:orange;
+	width:90%;
+	height:auto;
+	text-align:center;
+	margin-top:13%;
+	position:absolute;
+}
+
+#menuhp ul {
+	list-style-type: none;
+}
+
+#menuhp li {
+	display:inline-flex;
+	margin-left:5%;
+}
+
+#menuhp li a{
+
+	color: white;
+	text-decoration:none;
+}
+
+#menuhp li a:hover {
+	color: #222;
+}
+
+/** Page Index accueil**/
+
+#section2
+{
+	width: 100%;
+	margin-bottom: 50px;
+	padding-top: 2%;
+}
+
+.photo_index
+{
+	width: 100%;
+	height: auto;
+}
+
+#section2 h1
+{	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: justify;
+	font-size: 2em;
+}
+
+#section2 p 
+{
+	display: block;
+	text-align: justify;
+	justify-content: center;
+	font-size: 1em;
+	padding: 10px 10px 10px 10px;
+	
+}
+
+
+.panneau
+{
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+	
+}
+
+#page1
+{ 
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	text-align: center;
+	margin: 2%;
+ }
+
+ .titre1
+ {
+ 	background-color: orange;
+ 	font-size: 1.25em;
+ 	border-top-right-radius: 1px;
+ 	border-top-left-radius: 1px;
+ }
+
+ .titre1 a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre1 a:hover
+{	
+	color:#222;
+}
+
+img.photo_cabinet_index
+{
+	width: 100%;
+	height: 242px;
+	display: block;
+}
+
+.texte_menu_index p{
+	visibility: hidden;
+}
+
+/*
+.texte1
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	overflow: hidden;
+ 	text-align: inherit;
+ 	padding: 5%;
+}
+
+ .texte1 span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte1 pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ } */
+
+ .ensavoirplus1
+ {
+ 	display: inline-flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: orange;
+ 	font-size: 1em;
+ 	border-bottom-right-radius: 1px;
+ 	border-bottom-left-radius: 1px;
+ }
+
+ .ensavoirplus1 a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus1:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222;
+	
+}
+
+#page2
+{ 
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	text-align: center;
+	margin: 2%;
+ }
+
+.titre2
+ {
+ 	background-color: orange;
+ 	font-size: 1.25em;
+ 	border-top-right-radius: 1px;
+ 	border-top-left-radius: 1px;
+ }
+
+ .titre2 a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre2 a:hover
+{	
+	color: #222;
+}
+
+img.photo_equipe_index
+{
+	width: 100%;
+	height: 242px;
+	display: block;
+}
+/*
+.texte2
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	overflow: hidden;
+ 	text-align: inherit;
+ 	padding: 5%;
+}
+
+ .texte2 span
+ {
+ 	visibility: hidden;
+ 
+ }
+
+ .texte2 pre
+ {	
+ 	display: flex;
+ 	width: 200px;
+ 	padding-top: 20px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+*/
+ .ensavoirplus2
+ {
+ 	display: inline-flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: orange;
+ 	font-size: 1em;
+ 	border-bottom-right-radius: 1px;
+ 	border-bottom-left-radius: 1px;
+ }
+
+ .ensavoirplus2 a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus2:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222;
+}
+
+#page3
+{ 
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	text-align: center;
+	margin: 2%;
+
+ }
+
+.titre3
+ {
+ 	background-color: orange;
+ 	font-size: 1.25em;
+ 	border-top-right-radius: 1px;
+ 	border-top-left-radius: 1px;
+ }
+
+ .titre3 a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre3 a:hover
+{	
+	color:#222;
+}
+
+img.photo_soins_index
+{
+	width: 100%;
+	height: 242px;
+	display: block;
+}
+/*
+.texte3
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	height: auto;
+ 	overflow: hidden;
+ 	text-align: inherit;
+ 	padding: 5%;
+}
+
+ .texte3 span
+ {
+ 	visibility: hidden;
+ 
+ }
+
+ .texte3 pre
+ {	
+ 	display: flex;
+ 	width: 200px;
+ 	padding-top: 20px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+*/
+ .ensavoirplus3
+ {
+ 	display: inline-flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: orange;
+ 	font-size: 1em;
+ 	border-bottom-right-radius: 1px;
+ 	border-bottom-left-radius: 1px;
+ }
+
+ .ensavoirplus3 a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus3:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222;
+}
+
+#page4
+{ 	display: none;
+	flex-direction: column;
+	width: 17%;
+	text-align: center;
+	padding: 2%;
+
+ }
+
+.titre4
+ {
+ 	background-color: orange;
+ 	font-size: 1.25em;
+ 	border-top-right-radius: 1px;
+ 	border-top-left-radius: 1px;
+ }
+
+ .titre4 a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+.titre4 a:hover
+{	
+	color:#222;
+}
+
+.texte4
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	overflow: hidden;
+ 	text-align: inherit;
+ 	padding: 5%;
+}
+
+ .texte4 span
+ {
+ 	visibility: hidden;
+ 
+ }
+
+ .texte4 pre
+ {	
+ 	display: flex;
+ 	width: 200px;
+ 	padding-top: 20px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus4
+ {
+ 	display: inline-flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: orange;
+ 	font-size: 1em;
+ 	height: 50%;
+ 	border-bottom-right-radius: 1px;
+ 	border-bottom-left-radius: 1px;
+ }
+
+ .ensavoirplus4 a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus4:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222;
+}
+
+#basdepage
+{	
+	display:flex;
+	position: relative;
+	background-color:orange;
+	width:100%;
+	height:60px;
+	margin-top: 50px;
+}
+
+.logo3
+{
+	padding-left: 15px;
+	padding-top: 8px;
+
+}
+
+.logo-foot 
+{	
+	padding-top: 5px;
+	width:80px;
+	height:auto;
+}
+
+#logos
+{
+	display: inline-flex;
+	margin-left: 90%;
+	position: absolute;
+}
+
+.logo_contacts a
+{
+	background-color: rgb(77,77,77);
+	color:#fff;
+	display: block;
+	text-align: center;
+	margin-top: 12px;
+	width: 35px;
+	height: 35px;
+	font-size: 19px;
+	line-height: 35px;
+	border-radius: 50%;
+
+}
+
+.logo_contacts a:hover {
+	background-color:#fff;
+	color:orange;
+	text-align: center;
+	margin-top: 8px;
+	width: 35px;
+	height: 35px;
+	font-size: 19px;
+	line-height: 35px;
+	border-radius: 50%;
+}
+
+
+.logo_facebook a
+{
+	background-color: rgb(77,77,77);
+	color:#fff;
+	display: block;
+	text-align: center;
+	margin-top: 12px;
+	width: 35px;
+	height: 35px;
+	font-size: 19px;
+	line-height: 35px;
+	border-radius: 50%;
+	margin-left: 2%;
+
+}
+
+.logo_facebook a:hover {
+	background-color:#fff;
+	color:orange;
+	text-align: center;
+	margin-top: 8px;
+	width: 35px;
+	height: 35px;
+	font-size: 19px;
+	line-height: 35px;
+	border-radius: 50%;
+	margin-left: 2%;
+}
+
+/** mentions_legales **/
+
+.mentions_legales
+{
+	color:rgb(77,77,77);
+	font-size: 10px;
+	text-align: center;
+}
+
+.mentions_legales a
+{
+	color:rgb(77,77,77);
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.mentions_legales a:hover
+{
+	color:rgb(77,77,77);
+	text-decoration: none;
+}
+
+/** page3 ------ 3eme page, lequipe */
+
+#panneau_equipe
+{
+	width: 100%;
+	display: inline-block;
+}
+
+.equipier1
+{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+img.photo_equipier1
+{
+	width: 50%
+}
+
+img.photo_equipier2
+{
+	width: 50%
+}
+
+.equipier2
+{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+
+/** page2 ----  2eme page le cabinet */
+
+#panneau_le_cabinet
+{
+	width: 100%;
+	height: auto;
+	margin:auto;
+	text-align: center;
+	color: #222;
+}
+
+.le_cabinet_texte h1
+{	color: orange;
+	text-align: center;
+	font-style: bold;
+	font-size: 3em;
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+.w3-content.w3-display-container{margin: auto;}
+
+/*
+.diapo_auto_rwd
+{
+	position:relative;
+	width:90%;
+	margin:20px auto;
+}
+
+input#lance-diapo
+{
+	display: none;
+}
+
+input#pause1.pause_diapo
+{
+	display: none;
+}
+
+input#pause2.pause_diapo
+{
+	display: none;
+}
+
+input#pause3.pause_diapo
+{
+	display: none;
+}
+
+input#pause4.pause_diapo
+{
+	display: none;
+}
+
+input#pause5.pause_diapo
+{
+	display: none;
+}
+
+input#pause6.pause_diapo
+{
+	display: none;
+}
+
+input#pause7.pause_diapo
+{
+	display: none;
+}
+
+input#pause8.pause_diapo
+{
+	display: none;
+}
+
+input#pause9.pause_diapo
+{
+	display: none;
+}
+
+input#pause10.pause_diapo
+{
+	display: none;
+}
+
+input#pause11.pause_diapo
+{
+	display: none;
+}
+
+input#slide1.slide_diapo
+{
+	margin-left: 37%;
+}
+
+.diapo_auto_rwd ul li img
+{
+	width: 100%;
+	height: 600px;
+}
+
+.diapo_auto_rwd input [type=radio]
+{
+	display:none;
+}
+
+.diapo_auto_rwd label
+{
+	cursor:pointer;
+}
+
+.diapo_auto_rwd ul 
+{
+	position:relative;
+	z-index:1;
+	font-size:0;
+	line-height:0;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+}
+
+.diapo_auto_rwd ul .slide_diapo 
+{
+	width:100%;
+	height:100%; 
+	position:absolute;
+	top:0;
+	left:0;
+	-webkit-transition:-webkit-transform .8s;
+	transition:transform .8s;
+}
+*/
+
+/*slide images, on place les photos cote a cote*/
+/*
+ul .slide_diapo.image1
+{
+	left:0%;
+	width:100%;
+	height: 600px;
+}
+
+ul .slide_diapo.image2
+{
+	left:100%;
+	width:100%;
+	height: 600px;
+}
+
+ul .slide_diapo.image3
+{
+	left:200%;
+	width:100%;
+	height: 600px;
+}
+
+ul .slide_diapo.image4
+{
+	left:300%;
+	width:100%;
+	height: 600px;
+}
+
+ul .slide_diapo.image5
+{
+	left:400%;
+	width:100%;
+	height: 600px;
+}
+
+ul .slide_diapo.image6
+{
+	left:500%;
+	width:100%;
+	height: 600px;
+}
+
+
+ul .slide_diapo.image7
+{
+	left:600%;
+	width:100%;
+	height: 600px;
+}
+
+
+ul .slide_diapo.image8
+{
+	left:700%;
+	width:100%;
+	height: 600px;
+}
+
+ul .slide_diapo.image9
+{
+	left:800%;
+	width:100%;
+	height: 600px;
+}
+
+
+ul .slide_diapo.image10
+{
+	left:900%;
+	width:100%;
+	height: 600px;
+}
+
+ul .slide_diapo.image11
+{
+	left:1000%;
+	width:100%;
+	height: 600px;
+}
+
+
+
+#slide1:checked ~ ul .slide_diapo,
+#pause1:checked ~ ul .slide_diapo 
+{
+	-webkit-transform:translatex(0);
+	transform:translatex(0);
+}
+
+#slide2:checked ~ ul .slide_diapo,
+#pause2:checked ~ ul .slide_diapo 
+{
+	-webkit-transform:translatex(-100%);
+	transform:translatex(-100%);
+}
+
+#slide3:checked ~ ul .slide_diapo,
+#pause3:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-200%);
+	transform:translatex(-200%);
+}
+
+#slide4:checked ~ ul .slide_diapo,
+#pause4:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-300%);
+	transform:translatex(-300%);
+}
+
+#slide5:checked ~ ul .slide_diapo,
+#pause5:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-400%);
+	transform:translatex(-400%);
+}
+
+#slide6:checked ~ ul .slide_diapo,
+#pause6:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-500%);
+	transform:translatex(-500%);
+}
+
+#slide7:checked ~ ul .slide_diapo,
+#pause7:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-600%);
+	transform:translatex(-600%);
+}
+
+#slide8:checked ~ ul .slide_diapo,
+#pause8:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-700%);
+	transform:translatex(-700%);
+}
+
+#slide9:checked ~ ul .slide_diapo,
+#pause9:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-800%);
+	transform:translatex(-800%);
+}
+
+#slide10:checked ~ ul .slide_diapo,
+#pause10:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-900%);
+	transform:translatex(-900%);
+}
+
+#slide11:checked ~ ul .slide_diapo,
+#pause11:checked ~ ul .slide_diapo
+{
+	-webkit-transform:translatex(-1000%);
+	transform:translatex(-1000%);
+}
+
+
+/*navigation fleches droite et gauche*/
+/*
+.precedent,
+.suivant 
+{
+	position:absolute;
+	top:50%;
+	z-index:1;
+}
+
+.precedent label,
+.suivant label 
+{
+	position:absolute;
+	opacity:0;
+	z-index:-1;
+	height:50px;
+	width:0;
+	transform:translate(0,-50%);
+	-ms-transform:translate(0,-50%);
+	-webkit-transform:translate(0,-50%);
+}
+  
+.precedent
+{
+	left:1%;
+}
+.suivant
+{
+	left:94%;
+}
+
+
+.precedent label:before{content:"<";}
+.suivant label:before{content:">";}
+
+.precedent label:before,
+.suivant label:before
+{
+position:absolute;
+font-family:"";
+font-size:2rem;
+vertical-align:middle;
+height:50px;
+line-height:50px;
+text-align:center;
+width:50px;
+border-radius:50%;
+background:hsla(0,0%,0%,.3);
+color:white;
+}
+
+.precedent:hover label:before,
+.suivant:hover label:before
+{
+-webkit-transition:.3s;
+transition:.3s;
+background:hsla(0,0%,0%,.8);
+}
+
+
+#slide1:checked ~ .precedent .image11,
+#pause1:checked ~ .precedent .image11,
+#slide1:checked ~ .suivant .image2,
+#pause1:checked ~ .suivant .image2, 
+
+#slide2:checked ~ .precedent .image1,
+#pause2:checked ~ .precedent .image1,
+#slide2:checked ~ .suivant .image3,
+#pause2:checked ~ .suivant .image3, 
+
+#slide3:checked ~ .precedent .image2,
+#pause3:checked ~ .precedent .image2,
+#slide3:checked ~ .suivant .image4,
+#pause3:checked ~ .suivant .image4,
+
+#slide4:checked ~ .precedent .image3,
+#pause4:checked ~ .precedent .image3,
+#slide4:checked ~ .suivant .image5,
+#pause4:checked ~ .suivant .image5,
+
+#slide5:checked ~ .precedent .image4,
+#pause5:checked ~ .precedent .image4,
+#slide5:checked ~ .suivant .image6,
+#pause5:checked ~ .suivant .image6, 
+
+#slide6:checked ~ .precedent .image5,
+#pause6:checked ~ .precedent .image5,
+#slide6:checked ~ .suivant .image7,
+#pause6:checked ~ .suivant .image7, 
+
+#slide7:checked ~ .precedent .image6,
+#pause7:checked ~ .precedent .image6,
+#slide7:checked ~ .suivant .image8,
+#pause7:checked ~ .suivant .image8, 
+
+#slide8:checked ~ .precedent .image7,
+#pause8:checked ~ .precedent .image7,
+#slide8:checked ~ .suivant .image9,
+#pause8:checked ~ .suivant .image9, 
+
+#slide9:checked ~ .precedent .image8,
+#pause9:checked ~ .precedent .image8,
+#slide9:checked ~ .suivant .image10,
+#pause9:checked ~ .suivant .image10, 
+
+#slide10:checked ~ .precedent .image9,
+#pause10:checked ~ .precedent .image9,
+#slide10:checked ~ .suivant .image11,
+#pause10:checked ~ .suivant .image11, 
+
+#slide11:checked ~ .precedent .image10,
+#pause11:checked ~ .precedent .image10,
+#slide11:checked ~ .suivant .image1,
+#pause11:checked ~ .suivant .image1,
+
+
+
+
+
+@-webkit-keyframes fleche_diapo 
+{
+	0%,
+	33%{opacity:1;z-index:2}
+	
+	33%, 
+	66%{opacity:1;z-index:2}
+
+	66%,
+	99%{opacity:1;z-index:2}
+
+	132%,
+	165%{opacity:1;z-index:2}
+
+	165%,
+	198%{opacity:1;z-index:2}
+
+	198%,
+	222%{opacity:1;z-index:2}
+
+	222%,
+	258%{opacity:1;z-index:2}
+
+	258%,
+	291%{opacity:1;z-index:2}
+
+	291%,
+	324%{opacity:1;z-index:2}
+
+	324%,
+	357%{opacity:1;z-index:2}
+
+	357%,
+	390%{opacity:1;z-index:2}
+
+}
+
+@keyframes fleche_diapo 
+{
+	0%,
+	33%{opacity:1;z-index:2}
+	
+	33%, 
+	66%{opacity:1;z-index:2}
+
+	66%,
+	99%{opacity:1;z-index:2}
+
+	132%,
+	165%{opacity:1;z-index:2}
+
+	165%,
+	198%{opacity:1;z-index:2}
+
+	198%,
+	222%{opacity:1;z-index:2}
+
+	222%,
+	258%{opacity:1;z-index:2}
+
+	258%,
+	291%{opacity:1;z-index:2}
+
+	291%,
+	324%{opacity:1;z-index:2}
+
+	324%,
+	357%{opacity:1;z-index:2}
+
+	357%,
+	390%{opacity:1;z-index:2}
+
+}
+
+
+#lance-diapo:checked ~ .precedent .image11,
+#lance-diapo:checked ~ .suivant .image2 
+{
+-webkit-animation:fleche_diapo 12.3s infinite -1s;
+animation:fleche_diapo 12.3s infinite -1s;}
+
+#lance-diapo:checked ~ .precedent .image1,
+#lance-diapo:checked ~ .suivant .image3 {
+-webkit-animation:fleche_diapo 12.3s infinite 3.1s;
+animation:fleche_diapo 12.3s infinite 3.1s;}
+  
+  
+#lance-diapo:checked ~ .precedent .image2,
+#lance-diapo:checked ~ .suivant .image4 {
+-webkit-animation:fleche_diapo 12.3s infinite 7.2s;
+animation:fleche_diapo 12.3s infinite 7.2s;}
+
+#lance-diapo:checked ~ .precedent .image3,
+#lance-diapo:checked ~ .suivant .image5 {
+-webkit-animation:fleche_diapo 12.3s infinite 11.3s;
+animation:fleche_diapo 12.3s infinite 11.3s;}
+
+#lance-diapo:checked ~ .precedent .image4,
+#lance-diapo:checked ~ .suivant .image6 {
+-webkit-animation:fleche_diapo 12.3s infinite 15.4s;
+animation:fleche_diapo 12.3s infinite 15.4s;}
+
+#lance-diapo:checked ~ .precedent .image5,
+#lance-diapo:checked ~ .suivant .image7 {
+-webkit-animation:fleche_diapo 12.3s infinite 19.5s;
+animation:fleche_diapo 12.3s infinite 19.5s;}
+
+#lance-diapo:checked ~ .precedent .image6,
+#lance-diapo:checked ~ .suivant .image8 {
+-webkit-animation:fleche_diapo 12.3s infinite 23.6s;
+animation:fleche_diapo 12.3s infinite 23.6s;}
+
+#lance-diapo:checked ~ .precedent .image7,
+#lance-diapo:checked ~ .suivant .image9 {
+-webkit-animation:fleche_diapo 12.3s infinite 27.7s;
+animation:fleche_diapo 12.3s infinite 27.7s;}
+
+#lance-diapo:checked ~ .precedent .image8,
+#lance-diapo:checked ~ .suivant .image10 {
+-webkit-animation:fleche_diapo 12.3s infinite 31.8s;
+animation:fleche_diapo 12.3s infinite 31.8s;}
+
+#lance-diapo:checked ~ .precedent .image9,
+#lance-diapo:checked ~ .suivant .image11 {
+-webkit-animation:fleche_diapo 12.3s infinite 35.9s;
+animation:fleche_diapo 12.3s infinite 35.9s;}
+
+#lance-diapo:checked ~ .precedent .image10,
+#lance-diapo:checked ~ .suivant .image1 {
+-webkit-animation:fleche_diapo 12.3s infinite 40.0s;
+animation:fleche_diapo 12.3s infinite 40.0s;} 
+
+/*
+@media screen and (max-width:38.75rem){
+.diapo_auto_rwd{width:100%}
+
+.precedent label:before,
+.suivant label:before
+{
+font-size:1rem;
+height:30px;
+line-height:30px;
+width:30px;
+}
+
+.precedent label,
+.suivant label{
+height:30px;}
+
+.precedent{left:5%;}
+.suivant{left:95%;}
+ */
+
+
+/** page3 SOINS ET TECHNIQUES  **/
+
+.titre_soins_techniques
+{
+	text-align: center;
+	font-size: 206%;
+	color: #222
+}
+
+.panneau_soins
+{
+	display: flex;
+	width: 60%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#page_ondes_de_choc
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 1%;
+}
+
+ .titre_ondes_de_choc
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_ondes_de_choc a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_ondes_de_choc a:hover
+{	
+	text-decoration: none;
+	color:#222;
+}
+
+img.photo_ondes_de_choc
+{
+	width: 100%;
+	display: block;
+}
+
+.texte_ondes_de_choc
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+}
+
+
+
+ .texte_ondes_de_choc pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_ondes_de_choc
+ {
+ 	display: flex;
+ 	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_ondes_de_choc a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_ondes_de_choc:hover a
+{
+	display: flex;
+	text-align: center;
+	color: #222;
+	
+}
+
+#page_methodes_posturales
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+
+ .titre_methodes_posturales
+ {
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_methodes_posturales a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_methodes_posturales a:hover
+{	
+	color:#222;
+}
+
+img.photo_rpg
+{
+	width: 100%;
+	display: block;
+}
+
+.texte_methodes_posturales
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+}
+ .texte_methodes_posturales span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_methodes_posturales pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_methodes_posturale
+ {
+ 	display: flex;
+	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_methodes_posturale a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_methodes_posturale:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222
+	
+}
+
+#page_taping
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+
+ .titre_taping
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_taping a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_taping a:hover
+{	
+	color:#222;
+}
+
+img.photo_taping
+{
+	width: 100%;
+	display: block;
+	height: 188px;
+}
+
+
+.texte_taping
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+}
+ .texte_taping span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_taping pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_taping
+ {
+ 	display: flex;
+ 	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_taping a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_taping:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222
+	
+}
+
+.panneau_soins2
+{
+ 	display: flex;
+	width: 60%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#page_crochetage
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+
+ .titre_crochetage
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_crochetage a
+ {
+ 	 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_crochetage a:hover
+{	
+	
+	color:#222;
+}
+
+img.photo_crochetage
+{
+	width: 100%;
+	display: block;
+	height: 188px;
+}
+
+
+.texte_crochetage
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+}
+
+ .texte_crochetage span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_crochetage pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_crochetage
+ {
+ 	display: flex;
+	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_crochetage a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_crochetage:hover a
+{
+	display: flex;
+	text-align: center;
+	color: #222
+	
+}
+
+#page_ostheopathie  
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+ .titre_ostheopathie
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_ostheopathie a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_ostheopathie a:hover
+{	
+	color:#222;
+}
+
+img.photo_ostheopathie
+{
+	width: 100%;
+	display: block;
+}
+
+.texte_ostheopathie
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+	padding-bottom: 23px;
+}
+
+ .texte_ostheopathie span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_ostheopathie pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_ostheopathie
+ {
+ 	display: flex;
+ 	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_ostheopathie a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_ostheopathie:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222
+	
+}
+
+
+#page_pressotherapie
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+
+ .titre_pressotherapie
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_pressotherapie a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_pressotherapie a:hover
+{	
+	color:#222;
+}
+
+img.photo_drainage
+{
+	width: 100%;
+	display: block;
+}
+
+.texte_pressotherapie
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+}
+
+ .texte_pressotherapie span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_pressotherapie pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_pressotherapie
+ {
+ 	display: flex;
+ 	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_pressotherapie a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_pressotherapie:hover a
+{
+	display: flex;
+	text-align: center;
+	color: #222;
+	
+}
+
+.panneau_soins3
+{
+ 	display: flex;
+	width: 60%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#page_therapie_manuelle
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+ .titre_therapie_manuelle
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_therapie_manuelle a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_therapie_manuelle a:hover
+{	
+	color:#222;
+}
+
+img.photo_therapie_manuelle
+{
+	width: 100%;
+	display: block;
+}
+
+.texte_therapie_manuelle
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+}
+
+ .texte_therapie_manuelle span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_therapie_manuelle pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_therapie_manuelle
+ {
+ 	display: flex;
+ 	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_therapie_manuelle a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_therapie_manuelle:hover a
+{
+	display: inline-flex;
+	text-align: center;
+	color: #222;
+	
+}
+
+#page_physiotherapie
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+ .titre_physiotherapie
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_physiotherapie a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_physiotherapie a:hover
+{	
+	color:#222;
+}
+
+img.photo_physiotherapie
+{
+	width: 100%;
+	display: block;
+}
+
+.texte_physiotherapie
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	padding-top: 15px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+	box-sizing: content-box;
+}
+
+ .texte_physiotherapie span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_physiotherapie pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_physiotherapie
+ {
+ 	display: flex;
+ 	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_physiotherapie a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_physiotherapie:hover a
+{
+	display: flex;
+	text-align: center;
+	color: #222;
+	
+}
+
+#page_cryotherapie
+{ 
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    margin: 1%;
+}
+
+ .titre_cryotherapie
+{
+ 	background-color: orange;
+ 	font-size: 11px;
+ 	color: white;
+ }
+
+ .titre_cryotherapie a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+
+
+.titre_cryotherapie a:hover
+{	
+	color:#222;
+}
+
+img.photo_cryotherapie
+{
+	width: 100%;
+	display: block;
+}
+
+.texte_cryotherapie
+{
+	background-color: rgba(255,255,255,1);
+ 	width: auto;
+ 	text-align: center;
+	height:auto;
+	padding: 5px;
+	border-left: solid 1px orange; 
+	border-right: solid 1px orange;
+	padding-bottom: 23px;
+}
+
+ .texte_cryotherapie span
+ {
+ 	visibility: hidden; 
+ }
+
+ .texte_cryotherapie pre
+ {	
+ 	display: flex;
+ 	padding: auto;
+ 	text-overflow: ellipsis;
+ 	white-space: pre-wrap;
+ 	font-family: 'roboto_slabregular', sans-serif, arial;
+	font-size: 1em;
+ }
+
+ .ensavoirplus_cryotherapie
+ {
+ 	display: flex;
+ 	height: auto;
+ 	justify-content: center;
+ 	background-color: orange;
+ }
+
+ .ensavoirplus_cryotherapie a
+ {
+ 	display: flex;
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.ensavoirplus_cryotherapie:hover a
+{
+	display: flex;
+	text-align: center;
+	color: #222;
+	
+}
+
+/** pagestechniques **/
+	/**page ondesdechoc **/
+
+#ondes_de_choc
+{
+
+}
+
+.ondes_de_choc_img
+{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+
+
+.ondes_de_choc_txt
+{
+	color:#222;
+	text-align: justify;
+	width: 48%;
+	height: auto;
+	float: right;
+	padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ondes_de_choc_txt p
+{
+	padding-bottom: 23px;
+}
+
+.ondes_de_choc_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color: orange;
+}
+
+.ondes_de_choc_txt h2
+{
+	font-size: 150%;
+	text-align: center;
+	color: orange;
+}
+
+/**page rpg_mezieres **/
+
+#RPG_Mezieres
+{
+	display: flex;
+	flex-direction:row;
+}
+
+.RPG_img
+{
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+img.photo_RPG
+{
+	max-width: 60%;
+	padding-left: 20%;
+}
+
+.RPG_txt
+{
+	color:#222;
+	text-align: justify;
+	width: 48%;
+	height: auto;
+	float: right;
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+.RPG_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color:orange;
+}
+
+.RPG_txt h2
+{
+	font-size: 150%;
+	text-align: center;
+	color:orange;
+}
+
+/** pagetaping **/
+
+#taping
+{
+
+}
+
+.taping_txt li{
+	list-style-type: none;
+}
+
+.taping_txt h3{
+	color: orange;
+	text-align: center;
+}
+
+.taping_img2
+{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+img.photo_taping2
+{
+	max-width: 70%;
+	height: auto;
+	padding: 0%;
+	padding-left: 15%;
+	padding-top: 20%;
+}
+
+.taping_txt
+{
+	color:#222;
+	text-align: justify;
+	width: 48%;
+	height: auto;
+	float: right;
+	padding-top: 5%;
+}
+
+.taping_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color:orange;
+}
+
+.taping_txt h2
+{
+	font-size: 150%;
+	text-align: center;
+	color:orange;
+}
+
+/** page crochetage **/
+
+#crochetage
+{
+
+}
+
+.crochetage_img
+{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+img.photo_crochetage
+{
+	max-width: 100%;
+	height: auto;
+	padding: 0%;
+}
+.crochetage_txt
+{
+	color:#222;
+	text-align: justify;
+	width: 48%;
+	height: auto;
+	float: right;
+	padding-top: 12%;
+}
+
+.crochetage_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color:orange;
+}
+
+/** page ostéopathie **/
+
+#osteopathie
+{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.osteopathie_img
+{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+img.photo_osteopathie1
+{
+	max-width: 100%;
+	height: auto;
+	padding: 0%;
+	margin-top: 25%;
+}
+
+.osteopathie_txt
+{
+	color:#222;
+	vertical-align: middle;
+	width: 48%;
+	height: auto;
+	float: right;
+	padding-bottom: 18px;
+}
+
+.osteopathie_txt span
+{
+	text-overflow: hidden;
+}
+
+.osteopathie_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color: orange;
+}
+
+ /** page pressotherapie **/
+
+#pressotherapie
+{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+}
+
+.pressotherapie_img
+{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+img.photo_pressotherapie
+{
+	max-width: 100%;
+	height: auto;
+	padding: 0%;
+}
+.pressotherapie_txt
+{
+	color:#222;
+	text-align: justify;
+	width: 48%;
+	height: auto;
+	float: right;
+}
+
+.pressotherapie_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color: orange;
+}
+
+/** page therapie manuelle **/ 
+
+
+.images_therapie
+{
+	width: 50%;
+	float: left;
+}
+
+.therapie_manuelle_img
+{
+	width: 50%;
+	height: auto;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	margin-right: 2px;
+	margin:auto;
+}
+
+img.photo_therapie_manuelle
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.therapie_manuelle2_img
+{
+	width: 50%;
+	height: auto;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	margin: auto;
+}
+
+img.photo_therapie_manuelle2
+{
+	height: auto;
+}
+
+.therapie_manuelle_txt
+{
+	color:#222;
+	text-align: justify;
+	width: 48%;
+	height: auto;
+	float: right;
+}
+
+.therapie_manuelle_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color:orange;
+}
+
+.therapie_manuelle_txt h2
+{
+	font-size: 150%;
+	text-align: center;
+	color:orange;
+}
+
+/** page physiotherapie **/
+
+#physiotherapie
+
+.physiotherapie_img
+{
+	display: block;
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+}
+
+img.photo_physiotherapie{
+	width: 60%;
+display: block;
+padding-left: 21%;
+}
+
+.physiotherapie_txt
+{
+	color: #222;
+    text-align: justify;
+    width: 48%;
+    height: auto;
+    float: right;
+    margin: auto;
+}
+
+.physiotherapie_txt h2
+{
+	font-size: 200%;
+	text-align: center;
+	color: orange;
+}
+
+/** page cryotherapie **/ 
+
+#cryotherapie
+{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+}
+
+.images_cryo
+{
+	display: block;
+    width: 50%;
+    float: left;
+}
+
+.cryotherapie4_img
+{
+	width: 60%;
+	height: auto;
+	padding-top: 6%;
+	padding-bottom: 3%;
+	margin: auto;
+}
+
+.cryotherapie2_img
+{
+	width: 30%;
+	height: auto;
+	padding-bottom: 3%;
+	margin: auto;
+	display: block;
+	float: left;
+	clear: both;
+	padding-left: 122px;
+}
+
+.cryotherapie3_img
+{
+	width: 60%;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.cryotherapie_txt
+{
+	color:#222;
+	text-align: justify;
+	width: 48%;
+	height: auto;
+	float: right;
+}
+
+.cryotherapie_txt h1 
+{
+	font-size: 200%;
+	text-align: center;
+	color: orange;
+}
+.chaussette{
+	display: block;
+
+}
+
+.chaussette_texte h2
+{
+	color: orange;
+	text-align: center;
+}
+
+.chaussette_texte{
+	display: block;
+	float: right;
+	width: 49%;
+}
+
+/** page ultrasons **/
+
+
+#ultrasons
+{
+	display: flex;
+}
+
+.ultrasons_img
+{
+	display: block;
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+}
+
+img.photo_ultrasons{
+	width: 60%;
+	padding-left: 20%;
+}
+
+.ultrasons_txt
+{
+	color: #222;
+    text-align: justify;
+    width: 48%;
+    height: auto;
+    float: right;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.ultrasons_txt h2
+{
+	font-size: 200%;
+	text-align: center;
+	color: orange;
+}
+
+
+
+/** page4 LIENS  **/
+
+/** page5 CONTACTS  **/
+
+
+.col6 
+	{
+		width:49%; 
+		float:left; 
+		padding:50px 0 50px 0;
+		margin-right: 1%;
+	}
+
+.coordonnees 
+	{
+		list-style-type:none;
+	}
+
+.coordonnees li
+	{
+		margin-bottom:20px;
+		color: #222;
+	}
+
+.coordonnees li a 
+	{
+		color: #222;
+		text-decoration: none;
+	}
+
+.coordonnees li a:hover
+	{
+		text-decoration: underline;
+	}
+.name p
+	{
+		margin-bottom:4%;
+		margin-left: 3%;
+		color: #222;
+	}
+
+
+	/** page   **/
